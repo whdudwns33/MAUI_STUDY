@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "KGWot/ImbK4=",
+  "success": false,
+  "projectFilePath": "C:\\Dev\\MAUI01\\Notes\\Notes\\Notes.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.AndroidX.Collection'&semVerLevel=2.0.0'에서 'Xamarin.AndroidX.Collection'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.AndroidX.Collection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.AndroidX.Annotation'&semVerLevel=2.0.0'에서 'Xamarin.AndroidX.Annotation'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.AndroidX.Annotation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.AndroidX.Concurrent.Futures'&semVerLevel=2.0.0'에서 'Xamarin.AndroidX.Concurrent.Futures'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.AndroidX.Concurrent.Futures"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.Google.Guava.ListenableFuture'&semVerLevel=2.0.0'에서 'Xamarin.Google.Guava.ListenableFuture'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.Google.Guava.ListenableFuture"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.AndroidX.Interpolator'&semVerLevel=2.0.0'에서 'Xamarin.AndroidX.Interpolator'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.AndroidX.Interpolator"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Xamarin.AndroidX.Core'&semVerLevel=2.0.0'에서 'Xamarin.AndroidX.Core'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Xamarin.AndroidX.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'에서 'Microsoft.Extensions.DependencyInjection.Abstractions'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'에서 'Microsoft.Extensions.DependencyInjection.Abstractions'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "원격 원본 'https://www.nuget.org/api/v2/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'에서 'Microsoft.Extensions.DependencyInjection.Abstractions'에 대한 정보를 검색하지 못했습니다.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    }
+  ]
+}
