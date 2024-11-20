@@ -1,12 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\MAUI03\\Phoneword\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|c:\\dev\\maui\\maui03\\phoneword\\phoneword\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5FC16-8F4F-48B2-9108-200F116E3137}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MainPage.xaml",
+              "RelativeToolTip": "Phoneword\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T23:08:37.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MainPage.xaml.cs",
+              "RelativeToolTip": "Phoneword\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:08:36.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Phoneword\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\AppShell.xaml.cs",
+              "RelativeToolTip": "Phoneword\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:07:25.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Phoneword\\AppShell.xaml",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\AppShell.xaml",
+              "RelativeToolTip": "Phoneword\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T23:03:40.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Phoneword\\App.xaml.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\App.xaml.cs",
+              "RelativeToolTip": "Phoneword\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:02:44.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Phoneword\\MauiProgram.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI03\\Phoneword\\Phoneword\\MauiProgram.cs",
+              "RelativeToolTip": "Phoneword\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:02:33.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
