@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ykBBsDIxHME=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\스레딩02\\스레딩02.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'http://www.nuget.org/api/v2/' 'HTTP' 원본을 사용하여 'restore' 작업을 실행하고 있습니다. 비 HTTPS 액세스는 이후 버전에서 제거됩니다. 'HTTPS' 원본으로 마이그레이션하는 것이 좋습니다."
+    }
+  ]
+}

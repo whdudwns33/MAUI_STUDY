@@ -1,0 +1,15 @@
+C:\Dev\스레딩02\bin\Debug\net8.0\스레딩02.exe
+C:\Dev\스레딩02\bin\Debug\net8.0\스레딩02.deps.json
+C:\Dev\스레딩02\bin\Debug\net8.0\스레딩02.runtimeconfig.json
+C:\Dev\스레딩02\bin\Debug\net8.0\스레딩02.dll
+C:\Dev\스레딩02\bin\Debug\net8.0\스레딩02.pdb
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.AssemblyInfoInputs.cache
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.AssemblyInfo.cs
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.csproj.CoreCompileInputs.cache
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.sourcelink.json
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.dll
+C:\Dev\스레딩02\obj\Debug\net8.0\refint\스레딩02.dll
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.pdb
+C:\Dev\스레딩02\obj\Debug\net8.0\스레딩02.genruntimeconfig.cache
+C:\Dev\스레딩02\obj\Debug\net8.0\ref\스레딩02.dll
