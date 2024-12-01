@@ -27,5 +27,5 @@ androidpackagenamingpolicy=lowercasecrc64
 _nugetassetstimestamp=638663894796610052
 typemapkind=strings-asm
 androidmanifestplaceholders=
-projectfullpath=c:\dev\maui01\notes\notes\notes.csproj
+projectfullpath=c:\dev\maui\maui01\notes\notes\notes.csproj
 androidusedesignerassembly=true

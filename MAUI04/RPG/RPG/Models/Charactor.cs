@@ -4,18 +4,30 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
+
 
 namespace RPG.Models
 {
-    internal class Charactor
+    public class Charactor
     {
-        // 이름
+        // 속성
+        [JsonPropertyName("Name")]
         public string Name { get; set; }
-        // 체력
+        [JsonPropertyName("Health")]
         public int Health {  get; set; }
-        // 공격력
+        [JsonPropertyName("AttackPower")]
         public int AttackPower {  get; set; }
-        // 공격속도
+        [JsonPropertyName("AttcakSpeed")]
         public int AttackSpeed { get; set; }
+
+        // 생성자
+        public Charactor(string name, int health, int attackPower, int attackSpeed)
+        {
+            Name = name;
+            Health = health;
+            AttackPower = attackPower;
+            AttackSpeed = attackSpeed;
+        }
     }
 }

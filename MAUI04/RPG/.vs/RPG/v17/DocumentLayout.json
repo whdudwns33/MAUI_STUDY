@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A065AB2C-E268-49E7-9B7C-F374EA4CBB2E}|RPG\\RPG.csproj|c:\\dev\\maui\\maui04\\rpg\\rpg\\rpg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A065AB2C-E268-49E7-9B7C-F374EA4CBB2E}|RPG\\RPG.csproj|solutionrelative:rpg\\rpg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A065AB2C-E268-49E7-9B7C-F374EA4CBB2E}|RPG\\RPG.csproj|c:\\dev\\maui\\maui04\\rpg\\rpg\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A065AB2C-E268-49E7-9B7C-F374EA4CBB2E}|RPG\\RPG.csproj|solutionrelative:rpg\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\MAUI04\\RPG\\RPG\\VIewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "RPG\\VIewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\MAUI04\\RPG\\RPG\\VIewModels\\MainViewModel.cs",
+              "RelativeToolTip": "RPG\\VIewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T22:53:00.086Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "RPG\\RPG.csproj",
               "ToolTip": "C:\\Dev\\MAUI\\MAUI04\\RPG\\RPG\\RPG.csproj",
               "RelativeToolTip": "RPG\\RPG.csproj",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-11-19T23:22:15.021Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "RPG\\Models\\Charactor.cs",
               "ToolTip": "C:\\Dev\\MAUI\\MAUI04\\RPG\\RPG\\Models\\Charactor.cs",
               "RelativeToolTip": "RPG\\Models\\Charactor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T23:18:56.825Z",
               "EditorCaption": ""
