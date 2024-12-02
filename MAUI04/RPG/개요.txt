@@ -1,0 +1,111 @@
+1. 데이터 정보는 JSON 파일로 저장
+-> 캐릭터 정보 등
+
+2. 이미지 데이터는 RESOURCE에 저장
+
+3. 이벤트 디자인 패턴 활용 전투 이벤트 실행
+
+
+
+
+
+**************************************************
+구조 설계 
+1. main 실행에서 특정 점수까지 탐색 진행 
+2. 
+
+
+
+
+
+
+
+
+
+
+**************************************************
+필요한 CLASS
+1. Charactor 
+2. Map
+3. Item
+
+
+
+
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using RPG.Models;
+
+namespace RPG.ViewModels
+{
+    public class BattleViewModel : INotifyPropertyChanged
+    {
+        public ObservableCollection<Character> Players { get; set; } = new();
+        public ObservableCollection<Character> Enemies { get; set; } = new();
+
+        private string _battleLog;
+        public string BattleLog
+        {
+            get => _battleLog;
+            set
+            {
+                _battleLog = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public BattleViewModel()
+        {
+            // 예제 데이터를 로드 (실제로는 JSON 파일에서 로드)
+            Players.Add(new Character("Warrior", 100, 15, 2000));
+            Players.Add(new Character("Mage", 80, 20, 2400));
+            Enemies.Add(new Character("Giant", 200, 25, 3000));
+        }
+
+        public async Task StartBattleAsync()
+        {
+            BattleLog = "Battle started!";
+            while (Players.Count > 0 && Enemies.Count > 0)
+            {
+                foreach (var player in Players)
+                {
+                    if (Enemies.Count == 0) break;
+                    await AttackAsync(player, Enemies[0]);
+                }
+
+                foreach (var enemy in Enemies)
+                {
+                    if (Players.Count == 0) break;
+                    await AttackAsync(enemy, Players[0]);
+                }
+            }
+            BattleLog += "\nBattle ended!";
+        }
+
+        private async Task AttackAsync(Character attacker, Character defender)
+        {
+            if (!attacker.IsAlive || !defender.IsAlive) return;
+
+            await Task.Delay(attacker.AttackSpeed);
+            defender.Health -= attacker.AttackPower;
+
+            BattleLog += $"\n{attacker.Name} attacked {defender.Name}. {defender.Name}'s health: {defender.Health}";
+
+            if (!defender.IsAlive)
+            {
+                BattleLog += $"\n{defender.Name} has fallen!";
+                if (Players.Contains(defender)) Players.Remove(defender);
+                if (Enemies.Contains(defender)) Enemies.Remove(defender);
+            }
+        }
+
+        // INotifyPropertyChanged 구현
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+    }
+}
