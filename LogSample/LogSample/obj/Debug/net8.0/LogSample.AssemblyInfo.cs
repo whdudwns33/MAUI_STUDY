@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RPG")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LogSample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e08984df10019ebbd221eec2fdb124cb91b2dbc9")]
-[assembly: System.Reflection.AssemblyProductAttribute("RPG")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RPG")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e08984df10019ebbd221eec2fdb124cb91b2dbc9")]
+[assembly: System.Reflection.AssemblyProductAttribute("LogSample")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LogSample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst18.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
 

@@ -109,3 +109,122 @@ namespace RPG.ViewModels
         }
     }
 }
+
+
+
+
+
+
+***************************************************************************
+이벤트 처리 util에 넣을까?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******************************************************************************************************************************************************
+ObservableObject는 CommunityToolkit.Mvvm 라이브러리에서 제공하는 클래스입니다. 
+MVVM 패턴에서 데이터 바인딩과 UI 업데이트를 간소화하기 위해 사용됩니다. 
+이 클래스는 INotifyPropertyChanged 인터페이스를 구현하고 있어, 속성 값이 변경될 때 UI에 자동으로 알림을 보낼 수 있습니다.
+
+1. 역할과 주요 기능
+INotifyPropertyChanged 구현:
+속성 값 변경 시 PropertyChanged 이벤트를 자동으로 발생시켜, 데이터 바인딩된 UI가 업데이트됩니다.
+MVVM 패턴 지원:
+ViewModel 클래스에서 사용하는 속성들을 정의하고 관리하는 데 편리합니다.
+코드 간소화:
+속성 변경 알림을 수동으로 구현할 필요 없이, 기본 제공 메서드와 속성으로 처리할 수 있습니다.
+
+2. 기본 사용법
+코드 구현
+//////////////////////////////
+using CommunityToolkit.Mvvm.ComponentModel;
+
+public partial class ExampleViewModel : ObservableObject
+{
+    // 자동으로 INotifyPropertyChanged 구현
+    [ObservableProperty]
+    private string name;
+
+    [ObservableProperty]
+    private int age;
+
+    public ExampleViewModel()
+    {
+        Name = "홍길동";
+        Age = 25;
+    }
+
+    public void UpdateAge()
+    {
+        Age += 1; // Age 변경 시 자동으로 PropertyChanged 이벤트 발생
+    }
+}
+//////////////////////////////
+속성 동작
+Name 또는 Age 값이 변경되면, UI가 자동으로 업데이트됩니다.
+[ObservableProperty]는 **소스 생성기(Source Generator)**를 사용하여 코드를 자동으로 생성합니다:
+Getter/Setter
+OnPropertyChanged 호출
+
+
+3. 소스 생성기의 역할
+[ObservableProperty]는 다음 코드를 자동으로 생성합니다:
+
+수동 구현 시
+csharp
+코드 복사
+private string _name;
+public string Name
+{
+    get => _name;
+    set
+    {
+        if (_name != value)
+        {
+            _name = value;
+            OnPropertyChanged(nameof(Name)); // UI 갱신
+        }
+    }
+}
+자동 생성 시
+csharp
+코드 복사
+[ObservableProperty]
+private string name; // 위와 같은 코드를 자동으로 생성
+
+
+4. ObservableObject 내부 작동 원리
+ObservableObject는 INotifyPropertyChanged 인터페이스를 구현하며, 속성 변경 시 PropertyChanged 이벤트를 호출합니다.
+핵심 코드 구조:
+csharp
+코드 복사
+public class ObservableObject : INotifyPropertyChanged
+{
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
+
+5. 장점
+코드 간소화: [ObservableProperty]를 사용하면 반복적인 속성 코드 작성이 필요 없습니다.
+자동 UI 갱신: 데이터 변경 시, 바인딩된 UI가 자동으로 업데이트됩니다.
+유지보수 용이: 변경 감지와 이벤트 처리가 통합되어 ViewModel 관리가 쉬워집니다.
+MVVM 표준화: MVVM 패턴을 쉽게 구현할 수 있도록 설계되었습니다.
+******************************************************************************************************************************************************
+

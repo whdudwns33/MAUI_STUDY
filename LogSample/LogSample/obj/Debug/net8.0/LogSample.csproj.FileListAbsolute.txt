@@ -1,0 +1,15 @@
+C:\Dev\MAUI\LogSample\LogSample\bin\Debug\net8.0\LogSample.exe
+C:\Dev\MAUI\LogSample\LogSample\bin\Debug\net8.0\LogSample.deps.json
+C:\Dev\MAUI\LogSample\LogSample\bin\Debug\net8.0\LogSample.runtimeconfig.json
+C:\Dev\MAUI\LogSample\LogSample\bin\Debug\net8.0\LogSample.dll
+C:\Dev\MAUI\LogSample\LogSample\bin\Debug\net8.0\LogSample.pdb
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.AssemblyInfoInputs.cache
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.AssemblyInfo.cs
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.csproj.CoreCompileInputs.cache
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.sourcelink.json
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.dll
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\refint\LogSample.dll
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.pdb
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\LogSample.genruntimeconfig.cache
+C:\Dev\MAUI\LogSample\LogSample\obj\Debug\net8.0\ref\LogSample.dll
