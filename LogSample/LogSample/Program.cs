@@ -9,8 +9,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        // 로그 남기기
-        Log log = new Log();
-        Console.WriteLine(log.GetPathOfFile());
+        // 현재 시간
+        string dateTime = DateTime.Now.ToString();
+        // 해당 파일 위치
+        string filePath = Environment.CurrentDirectory;
+
+        Console.WriteLine(dateTime + " " + filePath);
     }
 }

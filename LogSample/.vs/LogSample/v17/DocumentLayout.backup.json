@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|solutionrelative:logsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|c:\\dev\\maui\\logsample\\logsample\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|solutionrelative:logsample\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|c:\\dev\\maui\\logsample\\logsample\\util\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|solutionrelative:logsample\\util\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|c:\\dev\\maui\\logsample\\logsample\\util\\logmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|solutionrelative:logsample\\util\\logmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|c:\\dev\\maui\\logsample\\logsample\\util\\commonvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C958FA-460A-4136-A8AE-A19154532238}|LogSample\\LogSample.csproj|solutionrelative:logsample\\util\\commonvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonVariables.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\CommonVariables.cs",
+              "RelativeDocumentMoniker": "LogSample\\Util\\CommonVariables.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\CommonVariables.cs",
+              "RelativeToolTip": "LogSample\\Util\\CommonVariables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:59:44.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogMessage.cs",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\LogMessage.cs",
+              "RelativeDocumentMoniker": "LogSample\\Util\\LogMessage.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\LogMessage.cs",
+              "RelativeToolTip": "LogSample\\Util\\LogMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:41:30.234Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Log.cs",
-              "DocumentMoniker": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Log.cs",
-              "RelativeDocumentMoniker": "LogSample\\Log.cs",
-              "ToolTip": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Log.cs",
-              "RelativeToolTip": "LogSample\\Log.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBsAAAAOAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\Log.cs",
+              "RelativeDocumentMoniker": "LogSample\\Util\\Log.cs",
+              "ToolTip": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Util\\Log.cs",
+              "RelativeToolTip": "LogSample\\Util\\Log.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwEgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T23:10:34.18Z",
               "EditorCaption": ""
@@ -41,7 +75,7 @@
               "RelativeDocumentMoniker": "LogSample\\Program.cs",
               "ToolTip": "C:\\Dev\\MAUI\\LogSample\\LogSample\\Program.cs",
               "RelativeToolTip": "LogSample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T23:16:19.431Z",
               "EditorCaption": ""
