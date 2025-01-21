@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace LogSample.Util
 {
@@ -9,7 +11,7 @@ namespace LogSample.Util
         /// <summary>
         /// 로그가 저장될 파일 경로
         /// </summary>
-        static string filename = "C:\\Dev\\MAUI\\LogSample\\LogSample\\Log";
+        static string filename = $"C:\\Dev\\MAUI\\LogSample\\LogSample\\Log\\Log{DateTime.Now.ToString("yyyyMMdd_HH")}.txt";
         /// <summary>
         /// 로그 저장용 queue : 저장되는 내용은 순차적이어야 하므로
         /// 전역변수 설정
@@ -33,13 +35,23 @@ namespace LogSample.Util
         /// </summary>
         /// <param name="logType">로그 타입(에러, 디버그, 경고, 정보)</param>
         /// <param name="str">로그 내용 : string.Format 사용 예정(파일경로, 파일위치, 메서드이름 등)</param>
+        /// <param name="filePath">파일경로</param>
         /// <param name="writenow">로그 기록 여부</param>
-        public static void WriteLog(LogType logType ,string str, bool writenow = false)
+        public static void WriteLog(LogType logType ,string str, string filePath, MethodEnter method,  bool writenow = false)
         {
+            string log = string.Format("{0} {1} {2}", filePath, str, method);
+
+            // 로그기록 파일이 없으면 생성 
+            // logyyyyMMdd_HH 
+            if (!File.Exists(filename))
+            {
+                File.Create(filename).Close();
+            }
+
             // 디버그 창에 출력
-            Debug.WriteLine(str);
+            Debug.WriteLine(log);
             // 로그 내용을 queue에 저장 -> 순차적으로 반영하기 위함
-            logQueue.Enqueue(new LogMessage(logType, str));
+            logQueue.Enqueue(new LogMessage(logType, log));
             if (writenow)
             {
                 // lock
@@ -47,7 +59,10 @@ namespace LogSample.Util
                 // 즉, writeLock 객체는 한번만 선언되고 전역으로 관리 되기 때문에 잠금상태를 부여하면해당 lock이 풀릴 때까지, 다음 동작은 대기한다.
                 lock (writeLock)
                 {
-                    using (StreamWriter stf = new StreamWriter(filename))
+                    // fileName 예외처리 문제??
+                    // 로그 기록 파일이 없어서 기록이 안되는듯?
+                    // 로그 기록 파일 처리하는 try ~ catch 확인
+                    using (StreamWriter stf = new StreamWriter(filename, true))
                     {
                         // 로그 Queue 메모리에 데이터 존재 시, 로그 기록 시작
                         while (logQueue.Count > 0)
@@ -55,7 +70,8 @@ namespace LogSample.Util
                             // Queue 메모리의 로그 내용 추출
                             LogMessage logMessage = logQueue.Dequeue();
                             // 로그 기록
-                            stf.Write(logMessage._message);
+                            // add 하는 방식이 아니라 갱신하는 방식임
+                            stf.WriteLine(logMessage._message);
                         }
                     }
                 }
@@ -65,16 +81,13 @@ namespace LogSample.Util
         /// <summary>
         /// 로그 메세지 생성 메서드
         /// </summary>
-        public string GetStringFormat()
+        /// <param name="filePath">파일경로</param>
+        /// <param name="methodName">메서드 이름</param>
+        public static string GetFilePath(string methodName, [CallerFilePath] string filePath = "")
         {
             // 현재 시간
             string dateTime = DateTime.Now.ToString();
-            // 해당 파일 위치
-            string filePath = Environment.CurrentDirectory;
-            // 해당 메서드 이름
-
-            string.Format("");
-            return "";
+            return string.Format(dateTime + filePath, methodName);
         }
         #endregion
     }

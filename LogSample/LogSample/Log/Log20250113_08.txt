@@ -1,0 +1,6 @@
+2025-01-13 오전 8:16:40C:\Dev\MAUI\LogSample\LogSample\Program.cs 프로그램 시작 IN
+2025-01-13 오전 8:16:50C:\Dev\MAUI\LogSample\LogSample\Program.cs 프로그램 시작 IN
+2025-01-13 오전 8:17:04C:\Dev\MAUI\LogSample\LogSample\Program.cs 프로그램 시작 IN
+2025-01-13 오전 8:17:38C:\Dev\MAUI\LogSample\LogSample\Program.cs 프로그램 시작 IN
+2025-01-13 오전 8:17:47C:\Dev\MAUI\LogSample\LogSample\Program.cs 로그 기록 시작 1
+2025-01-13 오전 8:17:53C:\Dev\MAUI\LogSample\LogSample\Program.cs 로그 기록 시작 2

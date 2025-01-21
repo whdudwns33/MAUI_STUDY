@@ -1,0 +1,1 @@
+2025-01-07 오전 8:22:55C:\Dev\MAUI\LogSample\LogSample\Program.cs 로그 기록
